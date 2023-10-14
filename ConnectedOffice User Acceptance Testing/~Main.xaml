@@ -120,6 +120,7 @@
       <AssemblyReference>ConnectionClient</AssemblyReference>
       <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
       <AssemblyReference>ConnectedOffice User Acceptance Testing.Core</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="924,5748" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -316,7 +317,7 @@
                                       </uix:TargetAnchorable>
                                     </uix:NClick.Target>
                                   </uix:NClick>
-                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Customer Title'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="b5f58b4e-94a3-4a8c-9917-42cdc5ba6d4c" Text="Mr" Version="V3">
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Customer Title'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="b5f58b4e-94a3-4a8c-9917-42cdc5ba6d4c" Version="V3">
                                     <uix:NTypeInto.Target>
                                       <uix:TargetAnchorable BrowserURL="https://cmpg323-ecopowerlogistics.azurewebsites.net/Customers/Create" DesignTimeRectangle="136, 339, 518, 90" DesignTimeScaleFactor="2.4000000953674316" ElementType="InputBox" FriendlyName="'INPUT CustomerTitle'" FullSelectorArgument="&lt;webctrl id='CustomerTitle' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='CustomerTitle' tag='INPUT' type='text' class='form-control' aaname='Customer Title' /&gt;" Guid="f5478f77-8492-41c4-8382-40a1c9015189" InformativeScreenshot="666639b36263528540b28ce4acce5d62.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Create - EcoPower_Logistics' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                                         <uix:TargetAnchorable.Anchors>
