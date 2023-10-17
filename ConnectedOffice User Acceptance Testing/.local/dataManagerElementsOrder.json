@@ -3,9 +3,28 @@
     {
       "Path": null,
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CustomersData&Sequence_3",
+        "OrdersData&Sequence_3",
+        "ProductsData&Sequence_3",
+        "OrderDetails&Sequence_3",
+        "OrderDetailsData&Sequence_3",
+        "customers_Data&Sequence_3",
+        "orders_Data&Sequence_3",
+        "product_Data&Sequence_3",
+        "order_DetailsData&Sequence_3",
+        "customers_Data&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
   ]
