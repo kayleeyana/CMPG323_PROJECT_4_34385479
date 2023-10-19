@@ -2,34 +2,113 @@
   "Packages": [
     {
       "Package": {
-        "Id": "UiPath.Excel.Activities",
-        "Version": "2.22.1-preview"
+        "Id": "UiPath.Azure.Activities",
+        "Version": "1.5.1"
       },
       "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\closedxml\\0.95.4\\lib/netstandard2.0/ClosedXML.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\documentformat.openxml\\2.12.1\\lib/netstandard2.0/DocumentFormat.OpenXml.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\excelnumberformat\\1.0.10\\lib/netstandard2.0/ExcelNumberFormat.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.core\\1.27.0\\lib/net6.0/Azure.Core.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.data.tables\\12.2.0\\lib/netstandard2.0/Azure.Data.Tables.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.identity\\1.4.1\\lib/netstandard2.0/Azure.Identity.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.resourcemanager\\1.3.2\\lib/netstandard2.0/Azure.ResourceManager.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.resourcemanager.storage\\1.1.0\\lib/netstandard2.0/Azure.ResourceManager.Storage.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.security.keyvault.secrets\\4.2.0\\lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.storage.blobs\\12.10.0\\lib/netstandard2.0/Azure.Storage.Blobs.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\azure.storage.common\\12.9.0\\lib/netstandard2.0/Azure.Storage.Common.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.keyvault\\3.0.5\\lib/netstandard2.0/Microsoft.Azure.KeyVault.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.keyvault.webkey\\3.0.5\\lib/netstandard2.0/Microsoft.Azure.KeyVault.WebKey.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.appservice.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.AppService.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.batchai.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.BatchAI.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.cdn.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Cdn.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.compute.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Compute.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.containerinstance.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ContainerInstance.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.containerregistry.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ContainerRegistry.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.containerservice.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ContainerService.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.cosmosdb.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.CosmosDB.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.dns.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Dns.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.eventhub.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.EventHub.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.graph.rbac.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Graph.RBAC.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.keyvault.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.KeyVault.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.locks.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Locks.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.monitor.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Monitor.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.msi.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Msi.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.network\\20.6.0\\lib/netstandard2.0/Microsoft.Azure.Management.Network.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.network.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Network.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.privatedns.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.PrivateDns.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.redis.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Redis.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.resourcemanager.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ResourceManager.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.search.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Search.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.securitycenter\\2.1.0\\lib/netstandard2.0/Microsoft.Azure.Management.SecurityCenter.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.servicebus.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ServiceBus.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.sql.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Sql.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.storage.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Storage.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.trafficmanager.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.TrafficManager.Fluent.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.18.4\\lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.clients.activedirectory\\4.3.0\\lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.19\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.rest.clientruntime.azure.authentication\\2.4.1\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.Azure.Authentication.dll",
         "C:\\Users\\27677\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OOXML.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXml4Net.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib/net6.0-windows7.0/Microsoft.Vbe.Interop.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib/net6.0-windows7.0/Office.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib/net6.0-windows7.0/UiPath.Excel.Activities.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib/net6.0-windows7.0/UiPath.Excel.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1\\lib/net6.0-windows7.0/UiPath.Azure.Activities.Design.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1\\lib/net6.0-windows7.0/UiPath.Azure.Activities.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1\\lib/net6.0-windows7.0/UiPath.Azure.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.connectionclient\\1.4.6\\lib/net5.0/ConnectionClient.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\windowsazure.storage\\9.3.3\\lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll"
+      ],
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.GSuite.Activities",
+        "Version": "2.3.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis\\1.55.0\\lib/netstandard2.0/Google.Apis.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/netstandard2.0/Google.Apis.Core.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.docs.v1\\1.55.0.2379\\lib/netstandard2.0/Google.Apis.Docs.v1.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.drive.v3\\1.55.0.2566\\lib/netstandard2.0/Google.Apis.Drive.v3.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.script.v1\\1.55.0.2555\\lib/netstandard2.0/Google.Apis.Script.v1.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\google.apis.sheets.v4\\1.55.0.2371\\lib/netstandard2.0/Google.Apis.Sheets.v4.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\mimekit\\3.1.1\\lib/net6.0/MimeKit.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\nodatime\\2.4.7\\lib/netstandard2.0/NodaTime.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async\\6.0.1\\lib/net6.0/System.Linq.Async.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async.queryable\\6.0.1\\lib/net6.0/System.Linq.Async.Queryable.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.connectionclient\\1.4.6\\lib/net5.0/ConnectionClient.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.GSuite.Activities.Design.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.GSuite.Activities.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.GSuite.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.Orchestrator.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4"
     },
     {
       "Package": {
@@ -74,15 +153,52 @@
         "C:\\Users\\27677\\.nuget\\packages\\uipath.mail.activities\\1.20.3\\lib/net6.0-windows7.0/UiPath.Mail.Activities.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.mail.activities\\1.20.3\\lib/net6.0-windows7.0/UiPath.Mail.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.mail.activities\\1.20.3\\lib/net6.0-windows7.0/UiPath.MainSessionServer.Shared.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.mail.activities\\1.20.3"
     },
     {
       "Package": {
+        "Id": "UiPath.MicrosoftOffice365.Activities",
+        "Version": "2.3.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\27677\\.nuget\\packages\\azure.core\\1.27.0\\lib/net6.0/Azure.Core.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\closedxml\\0.95.4\\lib/netstandard2.0/ClosedXML.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\documentformat.openxml\\2.12.1\\lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\excelnumberformat\\1.0.10\\lib/netstandard2.0/ExcelNumberFormat.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib/netstandard2.0/Microsoft.Graph.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib/netstandard2.0/Microsoft.Graph.Core.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async\\6.0.1\\lib/net6.0/System.Linq.Async.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async.queryable\\6.0.1\\lib/net6.0/System.Linq.Async.Queryable.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.connectionclient\\1.4.6\\lib/net5.0/ConnectionClient.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.Activities.Design.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.Activities.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "23.10.0-preview"
+        "Version": "23.10.1"
       },
       "Assemblies": [
         "C:\\Users\\27677\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
@@ -152,16 +268,17 @@
         "C:\\Users\\27677\\.nuget\\packages\\system.servicemodel.security\\4.7.0\\lib/netstandard2.0/System.ServiceModel.Security.dll",
         "C:\\Users\\27677\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\lib/netstandard2.0/System.ServiceModel.Syndication.dll",
         "C:\\Users\\27677\\.nuget\\packages\\system.serviceprocess.servicecontroller\\5.0.0\\runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.System.Activities.Api.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.System.Activities.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.1\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.1\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime\\23.10.1\\lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.1\\lib/net6.0-windows7.0/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.1\\lib/net6.0-windows7.0/UiPath.System.Activities.Api.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.1\\lib/net6.0-windows7.0/UiPath.System.Activities.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.0-preview"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.1"
     },
     {
       "Package": {
@@ -175,8 +292,8 @@
         "C:\\Users\\27677\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
         "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
         "C:\\Users\\27677\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.testing.activities\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Api.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.testing.activities\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.Testing.Activities.Design.dll",
@@ -201,13 +318,13 @@
         "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath\\23.10.66.33458-preview\\lib/net6.0-windows7.0/UiPath.Interop.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.ocr.contracts\\2.15.0-preview\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.uiautomation.activities\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.uiautomation.activities\\23.10.0-preview\\lib/net6.0-windows7.0/UiPath.Semantic.Activities.Design.dll",
@@ -234,150 +351,34 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Azure.Activities",
-        "Version": "1.5.1"
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.22.2"
       },
       "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\azure.core\\1.27.0\\lib/net6.0/Azure.Core.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\azure.data.tables\\12.2.0\\lib/netstandard2.0/Azure.Data.Tables.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\azure.identity\\1.4.1\\lib/netstandard2.0/Azure.Identity.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\azure.resourcemanager\\1.3.2\\lib/netstandard2.0/Azure.ResourceManager.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\azure.resourcemanager.storage\\1.1.0\\lib/netstandard2.0/Azure.ResourceManager.Storage.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\azure.security.keyvault.secrets\\4.2.0\\lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\azure.storage.blobs\\12.10.0\\lib/netstandard2.0/Azure.Storage.Blobs.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\azure.storage.common\\12.9.0\\lib/netstandard2.0/Azure.Storage.Common.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.keyvault\\3.0.5\\lib/netstandard2.0/Microsoft.Azure.KeyVault.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.keyvault.webkey\\3.0.5\\lib/netstandard2.0/Microsoft.Azure.KeyVault.WebKey.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.appservice.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.AppService.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.batchai.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.BatchAI.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.cdn.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Cdn.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.compute.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Compute.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.containerinstance.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ContainerInstance.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.containerregistry.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ContainerRegistry.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.containerservice.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ContainerService.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.cosmosdb.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.CosmosDB.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.dns.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Dns.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.eventhub.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.EventHub.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.graph.rbac.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Graph.RBAC.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.keyvault.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.KeyVault.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.locks.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Locks.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.monitor.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Monitor.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.msi.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Msi.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.network\\20.6.0\\lib/netstandard2.0/Microsoft.Azure.Management.Network.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.network.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Network.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.privatedns.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.PrivateDns.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.redis.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Redis.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.resourcemanager.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ResourceManager.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.search.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Search.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.securitycenter\\2.1.0\\lib/netstandard2.0/Microsoft.Azure.Management.SecurityCenter.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.servicebus.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.ServiceBus.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.sql.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Sql.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.storage.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.Storage.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.azure.management.trafficmanager.fluent\\1.38.0\\lib/netstandard1.4/Microsoft.Azure.Management.TrafficManager.Fluent.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib/netstandard2.1/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib/net6.0/Microsoft.Extensions.Primitives.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.18.4\\lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.clients.activedirectory\\4.3.0\\lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.19\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.rest.clientruntime.azure.authentication\\2.4.1\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.Azure.Authentication.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1\\lib/net6.0-windows7.0/UiPath.Azure.Activities.Design.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1\\lib/net6.0-windows7.0/UiPath.Azure.Activities.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1\\lib/net6.0-windows7.0/UiPath.Azure.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.connectionclient\\1.4.6\\lib/net5.0/ConnectionClient.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\windowsazure.storage\\9.3.3\\lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll"
-      ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.azure.activities\\1.5.1"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.GSuite.Activities",
-        "Version": "2.3.4"
-      },
-      "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis\\1.55.0\\lib/netstandard2.0/Google.Apis.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/netstandard2.0/Google.Apis.Core.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.docs.v1\\1.55.0.2379\\lib/netstandard2.0/Google.Apis.Docs.v1.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.drive.v3\\1.55.0.2566\\lib/netstandard2.0/Google.Apis.Drive.v3.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.script.v1\\1.55.0.2555\\lib/netstandard2.0/Google.Apis.Script.v1.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\google.apis.sheets.v4\\1.55.0.2371\\lib/netstandard2.0/Google.Apis.Sheets.v4.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\mimekit\\3.1.1\\lib/net6.0/MimeKit.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\nodatime\\2.4.7\\lib/netstandard2.0/NodaTime.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async\\6.0.1\\lib/net6.0/System.Linq.Async.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async.queryable\\6.0.1\\lib/net6.0/System.Linq.Async.Queryable.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.connectionclient\\1.4.6\\lib/net5.0/ConnectionClient.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.GSuite.Activities.Design.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.GSuite.Activities.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.GSuite.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4\\lib/net6.0-windows7.0/UiPath.Orchestrator.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.gsuite.activities\\2.3.4"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.MicrosoftOffice365.Activities",
-        "Version": "2.3.3"
-      },
-      "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\azure.core\\1.27.0\\lib/net6.0/Azure.Core.dll",
         "C:\\Users\\27677\\.nuget\\packages\\closedxml\\0.95.4\\lib/netstandard2.0/ClosedXML.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
         "C:\\Users\\27677\\.nuget\\packages\\documentformat.openxml\\2.12.1\\lib/netstandard2.0/DocumentFormat.OpenXml.dll",
         "C:\\Users\\27677\\.nuget\\packages\\excelnumberformat\\1.0.10\\lib/netstandard2.0/ExcelNumberFormat.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib/netstandard2.0/Microsoft.Graph.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib/netstandard2.0/Microsoft.Graph.Core.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\lib/netstandard2.0/Microsoft.VisualStudio.OLE.Interop.dll",
         "C:\\Users\\27677\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20230906.1\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OOXML.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\npoi\\2.5.5\\lib/netstandard2.1/NPOI.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\sharpziplib\\1.3.3\\lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\27677\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async\\6.0.1\\lib/net6.0/System.Linq.Async.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.linq.async.queryable\\6.0.1\\lib/net6.0/System.Linq.Async.Queryable.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\system.runtime.caching\\5.0.0\\runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\lib/net5.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.connectionclient\\1.4.6\\lib/net5.0/ConnectionClient.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.Activities.Design.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.Activities.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3\\lib/net6.0-windows7.0/UiPath.MicrosoftOffice365.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Excel.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib/net6.0-windows7.0/Microsoft.Vbe.Interop.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib/net6.0-windows7.0/Office.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib/net6.0-windows7.0/UiPath.Excel.Activities.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib/net6.0-windows7.0/UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib/net6.0-windows7.0/UiPath.Excel.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\27677\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.microsoftoffice365.activities\\2.3.3"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2"
     }
   ],
   "Conflicts": [],
@@ -6152,7 +6153,7 @@
     },
     "UiPath.CodedWorkflows": {
       "Id": "UiPath.CodedWorkflows",
-      "Version": "23.10.0-preview",
+      "Version": "23.10.0",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -6188,7 +6189,7 @@
     },
     "UiPath.Excel.Activities": {
       "Id": "UiPath.Excel.Activities",
-      "Version": "2.22.1-preview",
+      "Version": "2.22.2",
       "Dependencies": [
         {
           "Item1": "ClosedXML",
@@ -6220,7 +6221,7 @@
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[23.4.1, )"
+          "Item2": "[23.10.0, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -6501,7 +6502,7 @@
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "23.8.0-alpha.4168429",
+      "Version": "23.10.0",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -6519,11 +6520,11 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "23.10.0-preview",
+      "Version": "23.10.1",
       "Dependencies": [
         {
-          "Item1": "UiPath.System.Activities.Runtime.Windows",
-          "Item2": "[23.10.0-preview, )"
+          "Item1": "UiPath.System.Activities.Runtime",
+          "Item2": "[23.10.1, )"
         },
         {
           "Item1": "CsvHelper",
@@ -6579,11 +6580,11 @@
         },
         {
           "Item1": "UiPath.CodedWorkflows",
-          "Item2": "[23.10.0-preview, )"
+          "Item2": "[23.10.0, )"
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[23.8.0-alpha.4168429, )"
+          "Item2": "[23.10.0, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -6591,9 +6592,19 @@
         }
       ]
     },
+    "UiPath.System.Activities.Runtime": {
+      "Id": "UiPath.System.Activities.Runtime",
+      "Version": "23.10.1",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.System.Activities.Runtime.Windows",
+          "Item2": "[23.10.1, )"
+        }
+      ]
+    },
     "UiPath.System.Activities.Runtime.Windows": {
       "Id": "UiPath.System.Activities.Runtime.Windows",
-      "Version": "23.10.0-preview",
+      "Version": "23.10.1",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
@@ -6649,11 +6660,11 @@
         },
         {
           "Item1": "UiPath.CodedWorkflows",
-          "Item2": "[23.10.0-preview, )"
+          "Item2": "[23.10.0, )"
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[23.8.0-alpha.4168429, )"
+          "Item2": "[23.10.0, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -9866,12 +9877,12 @@
     {
       "Package": {
         "Id": "UiPath.CodedWorkflows",
-        "Version": "23.10.0-preview"
+        "Version": "23.10.0"
       },
       "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0-preview\\lib\\net6.0-windows7.0\\UiPath.CodedWorkflows.dll"
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0\\lib\\net6.0-windows7.0\\UiPath.CodedWorkflows.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0-preview"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.codedworkflows\\23.10.0"
     },
     {
       "Package": {
@@ -9886,18 +9897,18 @@
     {
       "Package": {
         "Id": "UiPath.Excel.Activities",
-        "Version": "2.22.1-preview"
+        "Version": "2.22.2"
       },
       "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib\\net6.0-windows7.0\\Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib\\net6.0-windows7.0\\Microsoft.Vbe.Interop.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib\\net6.0-windows7.0\\Office.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Design.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Package.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview\\lib\\net6.0-windows7.0\\UiPath.Excel.dll"
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib\\net6.0-windows7.0\\Microsoft.Office.Interop.Excel.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib\\net6.0-windows7.0\\Microsoft.Vbe.Interop.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib\\net6.0-windows7.0\\Office.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib\\net6.0-windows7.0\\UiPath.Excel.Activities.Package.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\lib\\net6.0-windows7.0\\UiPath.Excel.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.1-preview"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.excel.activities\\2.22.2"
     },
     {
       "Package": {
@@ -9976,35 +9987,45 @@
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "23.8.0-alpha.4168429"
+        "Version": "23.10.0"
       },
       "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.8.0-alpha.4168429"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.platform\\23.10.0"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "23.10.0-preview"
+        "Version": "23.10.1"
       },
       "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.0-preview\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.0-preview\\lib\\net6.0-windows7.0\\UiPath.System.Activities.ViewModels.dll"
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.ViewModels.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.0-preview"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities\\23.10.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities.Runtime",
+        "Version": "23.10.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime\\23.10.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Package.Runtime.dll"
+      ],
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime\\23.10.1"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities.Runtime.Windows",
-        "Version": "23.10.0-preview"
+        "Version": "23.10.1"
       },
       "Assemblies": [
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.0-preview\\lib\\net6.0-windows7.0\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.0-preview\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Api.dll",
-        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.0-preview\\lib\\net6.0-windows7.0\\UiPath.System.Activities.dll"
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.1\\lib\\net6.0-windows7.0\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Api.dll",
+        "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.0-preview"
+      "Path": "C:\\Users\\27677\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.10.1"
     },
     {
       "Package": {

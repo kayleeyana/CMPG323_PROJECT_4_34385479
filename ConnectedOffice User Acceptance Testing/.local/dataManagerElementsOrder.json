@@ -3,9 +3,45 @@
     {
       "Path": null,
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "OrdersID&Sequence_49",
+        "orDate&Sequence_47",
+        "ExtractDataTable&Sequence_1",
+        "deleteUrl&Sequence_63",
+        "editUrl&Sequence_63",
+        "customers_Data&Sequence_1",
+        "orders_Data&Sequence_1",
+        "product_Data&Sequence_1",
+        "order_DetailsData&Sequence_1",
+        "customer_id&Sequence_40"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main(Autosaved).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "customers_Data&Sequence_1",
+        "orders_Data&Sequence_1",
+        "product_Data&Sequence_1",
+        "order_DetailsData&Sequence_1",
+        "ExtractDataTable&Sequence_1",
+        "customer_id&Sequence_40",
+        "deleteUrl&Sequence_63",
+        "editUrl&Sequence_63"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
   ]
