@@ -20,8 +20,8 @@ SAVE TIME, MONEY AND THERES STILL MORE TO COME...
 
 # MORE ABOUT RPA AND TESTING.
 
-STRUCTURE## 
-Using the web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/
+STRUCTURE
+## Using the web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/
 There is a log-in activity.
 This web app has four tabs called: HOME, CUSTOMERS, ORDERS, PRODUCTS AND ORDERS DETAILS tabs. 
 
