@@ -21,7 +21,7 @@ This Automation populates the: Customers, Orders, Products, and OrdersDetails us
 # MORE ABOUT RPA AND TESTING.
 
 Instruction Manual
-Using the available web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/
+Using the available web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/.
 Using FireFox browser and UiPath community studio.
 Log-in on the web app.
 This web app has four tabs namely: HOME, CUSTOMERS, ORDERS, PRODUCTS AND ORDERS DETAILS tabs. 
