@@ -23,6 +23,10 @@ This Automation populates the: Customers, Orders, Products, and OrdersDetails us
 Firstly the automation logs into the web app called https://cmpg323-ecopowerlogistics.azurewebsites.net/ with a username and password saved in the automation.
 Following this it clicks on the "Create New" proceeding with entering all the data from the excel spreadsheet onto the webpage and automates all records for the: Customers, Orders,Products, OrdersDetails after it clicks "Create" for each tab: Customers,Orders,OrdersDetails and Products.
 
+Whilst doing this it writes to the Excel spreadsheet and Updates the Test Result Column by idicating True/False that the automation was successful. 
+
 It then displays all records for Customers, Orders,Products, OrdersDetails in a Table Form.
+
+
 
 
