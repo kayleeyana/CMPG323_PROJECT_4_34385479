@@ -12,5 +12,5 @@ Robotic Process Automation (RPA) is a technology that employs software robots to
 
 Why we need Automation?
 
-SAVE TIME, MONEY AND MANY MORE...
+SAVE TIME, MONEY AND THERES STILL MORE TO COME...
 
