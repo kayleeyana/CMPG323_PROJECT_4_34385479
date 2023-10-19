@@ -24,6 +24,7 @@ Instruction Manual
 Using the available web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/.
 Using FireFox browser and UiPath community studio.
 Log-in on the web app.
+
 This web app has four tabs namely: HOME, CUSTOMERS, ORDERS, PRODUCTS AND ORDERS DETAILS tabs. 
 
 Stakeholders would need the above before running the automation.
