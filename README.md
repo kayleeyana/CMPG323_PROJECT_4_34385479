@@ -18,7 +18,14 @@ SAVE TIME, MONEY AND THERES STILL MORE TO COME...
 
 This Automation populates the: Customers, Orders, Products, and OrdersDetails using the Excel spreadsheet called "ecopowerlogistics" and displays all the data on the web app called: https://cmpg323-ecopowerlogistics.azurewebsites.net/
 
-# More about the RPA and Testing.
+# MORE ABOUT RPA AND TESTING.
+
+STRUCTURE
+Using the web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/
+There is a log-in activity.
+This web app has four tabs called: HOME, CUSTOMERS, ORDERS, PRODUCTS AND ORDERS DETAILS tabs. 
+
+Read and Create data from Excel Spreedsheet.
 
 Firstly the automation logs into the web app called https://cmpg323-ecopowerlogistics.azurewebsites.net/ with a username and password saved in the automation.
 Following this it clicks on the "Create New" proceeding with entering all the data from the excel spreadsheet onto the webpage and automates all records for the: Customers, Orders,Products, OrdersDetails after it clicks "Create" for each tab: Customers,Orders,OrdersDetails and Products.
@@ -26,6 +33,13 @@ Following this it clicks on the "Create New" proceeding with entering all the da
 Whilst doing this it writes to the Excel spreadsheet and Updates the Test Result Column by idicating True/False that the automation was successful. 
 
 It then displays all records for Customers, Orders,Products, OrdersDetails in a Table Form.
+
+Edit data on the web app and modify the data.
+
+Now we have the option of editing the: Customers, Orders, Products, OrdersDetails on the web app and make it alittle more meaningful by adding more data onto each  Customers, Orders,Products, OrdersDetails .
+
+The automation captures the table provided on the web app with all the 
+
 
 
 
