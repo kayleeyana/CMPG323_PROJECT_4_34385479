@@ -34,11 +34,17 @@ Stakeholders would need the above before running the automation.
 # Read and Create data from Excel spreadsheet.
 
     1. Firstly the automation logs into the web app called https://cmpg323-ecopowerlogistics.azurewebsites.net/ with a username and password saved in the automation.
+    
     2. Clicks a tab in this order: Customers, Orders, Products and then Ordersdetails.
-3. Clicks on the "Create New" proceeding with entering all the data from the Excel spreadsheet onto the webpage.
-4. Automating all records based on the click event from each tab for the: Customers, Orders, Products, OrdersDetails, inserting all corresponding data from the Excel based on the tab clicked by using the click activity called "Create".
-5. Each tab called Customers, Orders, Products and OrdersDetails will have a table with all the details captured.
-6. Whilst doing this it writes to the Excel spreadsheet and updates the Test Result Column by indicating True/False that the automation was successful. 
+    
+    3. Clicks on the "Create New" proceeding with entering all the data from the Excel spreadsheet onto the webpage.
+    
+    4. Automating all records based on the click event from each tab for the: Customers, Orders, Products, OrdersDetails, inserting all corresponding data from the Excel 
+     based on the tab clicked by using the click activity called "Create".
+     
+    5. Each tab called Customers, Orders, Products and OrdersDetails will have a table with all the details captured.
+    
+    6. Whilst doing this it writes to the Excel spreadsheet and updates the Test Result Column by indicating True/False that the automation was successful. 
 
 # Edit data on the web app and modify the data.
 
@@ -55,8 +61,11 @@ Stakeholders would need the above before running the automation.
 # Delete data on the web app.
 
 1.Now we also have the option of deleting an entire record based on the tab: Customers, Orders, Product, OrdersDetails.
+
 2.Theres a record of all Customers, Orders, Products and Orders so in each respective tab theres a table with all the details captured at the end theres a "Delete" activity. 
+
 3.Once the "Delete "has been clicked on, the automation deletes the entire record.
+
 4.Updates the excel spreedsheet that the deleting has occurred.
 
 [Stretch Tasks]: Writes to the excel spreedsheet.
