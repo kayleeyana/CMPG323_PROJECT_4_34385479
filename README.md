@@ -3,7 +3,8 @@ Testing &amp; RPA
 
 # ALL ABOUT THE "AI Robot Hires Itself":
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2F5-ways-rpaaas-impact-employees-wilton-rogers-iii&psig=AOvVaw3gJtp0CYSLWrg-wgAP_DYS&ust=1697773800845000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCahLOagYIDFQAAAAAdAAAAABAJ
+![image](https://github.com/kayleeyana/CMPG323_PROJECT_4_34385479/assets/112712495/b9476549-a940-4cfc-b947-1082455a293b)
+
 
 ##What is RPA and Automation all about?
 
