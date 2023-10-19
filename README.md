@@ -42,7 +42,7 @@ Stakeholders would need the above before running the automation.
 
 # Edit data on the web app and modify the data.
 
-1.Now we have the option of editing the: Customers, Orders, Products, OrdersDetails on the web app to make it a little more meaningful by adding more data to each Customer, Orders, Products, OrdersDetails .
+1.Now we have the option of editing the: Customers, Orders, Products, OrdersDetails on the web app to make it a little more meaningful by adding more data to each Customer, Orders, Products, OrdersDetails.
 2.The automation captures the data provided on the web app based on a specific tab on the web app: Customers,  Orders, Products, OrdersDetails, loops through each of the data captured on the web- app, and edits respective data, e.g Customer Title.
 3.Then captures all the edits on the web app.
 4.Updates the excel spreedsheet that the webapp has captured the editing.
