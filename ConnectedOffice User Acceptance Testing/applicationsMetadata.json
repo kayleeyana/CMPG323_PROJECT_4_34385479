@@ -1,0 +1,31 @@
+﻿{
+  "Version": "1.0",
+  "Metadata": [
+    {
+      "ApplicationType": "Firefox",
+      "ExecutablePath": {
+        "Value": "firefox.exe",
+        "IsExpression": false
+      },
+      "Url": {
+        "Value": "https://cmpg323-ecopowerlogistics.azurewebsites.net",
+        "IsExpression": false
+      },
+      "Arguments": null,
+      "Version": null
+    },
+    {
+      "ApplicationType": "WindowsApplication",
+      "ExecutablePath": {
+        "Value": "excel.exe",
+        "IsExpression": false
+      },
+      "Url": null,
+      "Arguments": {
+        "Value": "CMPG323 EcoPower Logistics Data.xlsx",
+        "IsExpression": false
+      },
+      "Version": null
+    }
+  ]
+}

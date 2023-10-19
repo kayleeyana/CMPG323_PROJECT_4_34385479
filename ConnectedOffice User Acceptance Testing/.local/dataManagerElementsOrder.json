@@ -12,16 +12,33 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "CustomersData&Sequence_3",
-        "OrdersData&Sequence_3",
-        "ProductsData&Sequence_3",
-        "OrderDetails&Sequence_3",
-        "OrderDetailsData&Sequence_3",
-        "customers_Data&Sequence_3",
-        "orders_Data&Sequence_3",
-        "product_Data&Sequence_3",
-        "order_DetailsData&Sequence_3",
-        "customers_Data&Sequence_9"
+        "OrdersID&Sequence_49",
+        "orDate&Sequence_47",
+        "ExtractDataTable&Sequence_1",
+        "deleteUrl&Sequence_63",
+        "editUrl&Sequence_63",
+        "customers_Data&Sequence_1",
+        "orders_Data&Sequence_1",
+        "product_Data&Sequence_1",
+        "order_DetailsData&Sequence_1",
+        "customer_id&Sequence_40"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main(Autosaved).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "customers_Data&Sequence_1",
+        "orders_Data&Sequence_1",
+        "product_Data&Sequence_1",
+        "order_DetailsData&Sequence_1",
+        "ExtractDataTable&Sequence_1",
+        "customer_id&Sequence_40",
+        "deleteUrl&Sequence_63",
+        "editUrl&Sequence_63"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
