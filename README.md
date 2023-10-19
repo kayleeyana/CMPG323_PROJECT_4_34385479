@@ -16,7 +16,7 @@ SAVE TIME, MONEY AND THERES STILL MORE TO COME...
 
 # HOW TO USE THE AUTOMATION:
 
-This Automation populates the: Customers, Orders, Products, and OrdersDetails using the Excel spreadsheet called "ecopowerlogistics" and displays all the data on the web app called: https://cmpg323-ecopowerlogistics.azurewebsites.net/
+#This Automation populates the: Customers, Orders, Products, and OrdersDetails using the Excel spreadsheet called "ecopowerlogistics" and displays all the data on the web app called: https://cmpg323-ecopowerlogistics.azurewebsites.net/
 
 # MORE ABOUT RPA AND TESTING.
 
