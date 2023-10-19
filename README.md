@@ -1,7 +1,7 @@
 # CMPG323_PROJECT_4_34385479
 Testing &amp; RPA
 
-# ALL ABOUT HOW THE "AI Robot Hires Itself":
+# All about how the "AI ROBOT HIRES ITSELF":
 
 ![image](https://github.com/kayleeyana/CMPG323_PROJECT_4_34385479/assets/112712495/b9476549-a940-4cfc-b947-1082455a293b)
 
