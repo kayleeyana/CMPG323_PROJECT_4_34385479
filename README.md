@@ -52,6 +52,7 @@ Stakeholders would need the above before running the automation.
 # Delete data on the web app.
 
 1.Now we also have the option of deleting an entire record based on the tab: Customers, Orders, Product, OrdersDetails.
+
 2.Theres a record of all Customers, Orders, Products and Orders so in each respective tab theres a table with all the details captured at the end theres a "Delete" activity. 
 3.Once the "Delete "has been clicked on, the automation deletes the entire record.
 4.Updates the excel spreedsheet that the deleting has occurred.
