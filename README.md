@@ -48,25 +48,28 @@ Stakeholders would need the above before running the automation.
 
 # Edit data on the web app and modify the data.
 
-1.Now we have the option of editing the: Customers, Orders, Products, OrdersDetails on the web app to make it a little more meaningful by adding more data to each Customer, Orders, Products, OrdersDetails.
+     1.Now we have the option of editing the: Customers, Orders, Products, OrdersDetails on the web app to make it a little more meaningful by adding more data to each 
+      Customer, Orders, Products, OrdersDetails.
 
-2. The automation captures the data provided on the web app based on a specific tab on the web app: Customers,  Orders, Products, OrdersDetails, loops through each of the data captured on the web- app, and edits respective data, e.g Customer Title.
+     2. The automation captures the data provided on the web app based on a specific tab on the web app: Customers,  Orders, Products, OrdersDetails, loops through each of 
+     the data captured on the web- app, and edits respective data, e.g Customer Title.
    
-4. Then captures all the edits on the web app.
+     3. Then captures all the edits on the web app.
    
-6. Updates the excel spreedsheet that the webapp has captured the editing.
+     4. Updates the excel spreedsheet that the webapp has captured the editing.
 
 [Stretch Tasks]: Writes to the Excel spreadsheet when the edit was successful or not. 
 
 # Delete data on the web app.
 
-1.Now we also have the option of deleting an entire record based on the tab: Customers, Orders, Product, OrdersDetails.
+    1.Now we also have the option of deleting an entire record based on the tab: Customers, Orders, Product, OrdersDetails.
 
-2.Theres a record of all Customers, Orders, Products and Orders so in each respective tab theres a table with all the details captured at the end theres a "Delete" activity. 
+    2.Theres a record of all Customers, Orders, Products and Orders so in each respective tab theres a table with all the details captured at the end theres a "Delete" 
+     activity. 
 
-3.Once the "Delete "has been clicked on, the automation deletes the entire record.
+    3.Once the "Delete "has been clicked on, the automation deletes the entire record.
 
-4.Updates the excel spreedsheet that the deleting has occurred.
+    4.Updates the excel spreedsheet that the deleting has occurred.
 
 [Stretch Tasks]: Writes to the excel spreedsheet.
 
