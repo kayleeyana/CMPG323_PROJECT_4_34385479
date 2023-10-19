@@ -20,7 +20,7 @@ This Automation populates the: Customers, Orders, Products, and OrdersDetails us
 
 # MORE ABOUT RPA AND TESTING.
 
-Instruction Manual
+## Instruction Manual
 Using the available web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/.
 
 Using FireFox browser and UiPath community studio.
