@@ -16,30 +16,38 @@ SAVE TIME, MONEY AND THERES STILL MORE TO COME...
 
 # HOW TO USE THE AUTOMATION:
 
-#This Automation populates the: Customers, Orders, Products, and OrdersDetails using the Excel spreadsheet called "ecopowerlogistics" and displays all the data on the web app called: https://cmpg323-ecopowerlogistics.azurewebsites.net/
+This Automation populates the: Customers, Orders, Products, and OrdersDetails using the Excel spreadsheet called "ecopowerlogistics" and displays all the data on the web app called: https://cmpg323-ecopowerlogistics.azurewebsites.net/
 
 # MORE ABOUT RPA AND TESTING.
 
 STRUCTURE
-## Using the web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/
-There is a log-in activity.
-This web app has four tabs called: HOME, CUSTOMERS, ORDERS, PRODUCTS AND ORDERS DETAILS tabs. 
+## Using the available web app: https://cmpg323-ecopowerlogistics.azurewebsites.net/
+## Log-in on the web app.
+## This web app has four tabs namely: HOME, CUSTOMERS, ORDERS, PRODUCTS AND ORDERS DETAILS tabs. 
 
-# Read and Create data from Excel Spreedsheet.
+# Read and Create data from Excel spreadsheet.
 
-Firstly the automation logs into the web app called https://cmpg323-ecopowerlogistics.azurewebsites.net/ with a username and password saved in the automation.
-Following this it clicks on the "Create New" proceeding with entering all the data from the excel spreadsheet onto the webpage and automates all records for the: Customers, Orders,Products, OrdersDetails after it clicks "Create" for each tab: Customers,Orders,OrdersDetails and Products.
-
-Whilst doing this it writes to the Excel spreadsheet and Updates the Test Result Column by idicating True/False that the automation was successful. 
-
-It then displays all records for Customers, Orders,Products, OrdersDetails in a Table Form.
+1. Firstly the automation logs into the web app called https://cmpg323-ecopowerlogistics.azurewebsites.net/ with a username and password saved in the automation.
+2. Following this it clicks on the "Create New" proceeding with entering all the data from the Excel spreadsheet onto the webpage.
+3. Automating all records based on the click event from each tab for the: Customers, Orders, Products, OrdersDetails, inserting all corresponding data from the Excel based on the tab clicked by using the click activity called "Create".
+4. Each tab called Customers, Orders, Products and OrdersDetails will have a table with all the details captured.
+Whilst doing this it writes to the Excel spreadsheet and updates the Test Result Column by indicating True/False that the automation was successful. 
 
 # Edit data on the web app and modify the data.
 
-Now we have the option of editing the: Customers, Orders, Products, OrdersDetails on the web app and make it alittle more meaningful by adding more data onto each  Customers, Orders,Products, OrdersDetails .
+1.Now we have the option of editing the: Customers, Orders, Products, OrdersDetails on the web app and make it a little more meaningful by adding more data to each Customer, Orders, Products, OrdersDetails .
+2.The automation captures the table provided on the web app with all the data from a specific tab on the web app: Customers, Orders, Orders, OrdersDetails, loops through each of the data captured on the web- app, and edits respective data, e.g Customer Title.
+3.Then captures all the edits on the web app.
+4.Updates the excel spreedsheet that the webapp has captured the editing.
 
-The automation captures the table provided on the web app with all the 
+[Stretch Tasks]: Writes to the Excel spreadsheet when the edit was successful or not. 
 
+# Delete data on the web app.
+
+1.Now we also have the option of deleting an entire record based on the tab: Customers, Orders, Product, OrdersDetails.
+2.Theres a record of all Customers, Orders, Products and Orders so in each respective tab that the user clicked on theres a table with all the details captured on a table formatting that has the "Delete" activity. 
+3.Once the "Delete"has been clicked on, the auomation deletes the entire record.
+4.Updates the excel spreedsheet that the deleting has occurred.
 
 
 
