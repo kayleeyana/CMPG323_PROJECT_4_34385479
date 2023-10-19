@@ -33,8 +33,8 @@ Stakeholders would need the above before running the automation.
 
 # Read and Create data from Excel spreadsheet.
 
-1. Firstly the automation logs into the web app called https://cmpg323-ecopowerlogistics.azurewebsites.net/ with a username and password saved in the automation.
-2. Clicks a tab in this order: Customers, Orders, Products and then Ordersdetails.
+    1. Firstly the automation logs into the web app called https://cmpg323-ecopowerlogistics.azurewebsites.net/ with a username and password saved in the automation.
+    2. Clicks a tab in this order: Customers, Orders, Products and then Ordersdetails.
 3. Clicks on the "Create New" proceeding with entering all the data from the Excel spreadsheet onto the webpage.
 4. Automating all records based on the click event from each tab for the: Customers, Orders, Products, OrdersDetails, inserting all corresponding data from the Excel based on the tab clicked by using the click activity called "Create".
 5. Each tab called Customers, Orders, Products and OrdersDetails will have a table with all the details captured.
